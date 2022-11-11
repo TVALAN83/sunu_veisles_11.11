@@ -1,0 +1,45 @@
+.container{
+max-width: 1200px;
+margin: 0 auto;
+min-height: 100vh;
+}
+.vidurys{ 
+    text-align: center;
+
+
+}
+
+.content{
+    min-height: 600px;
+    text-align: center;
+}
+.content a:hover {
+    border: solid 5px orangered;}
+    .content a img{
+padding: 1px 10px;
+    }
+    .content a {
+        display:inline-block;
+
+    }
+body{
+    background-image: url("./Nuotraukos/ekrano\ fonas.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.vidurys a{
+    display: inline-block;
+    padding: 5px 100px;
+    margin: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s;
+    border: 3px solid  rgb(43, 100, 100);
+    background-color:  rgb(74, 157, 157);
+}
+.vidurys a:hover{
+    background-color: rgb(43, 100, 100);
+    color: white;
+}
